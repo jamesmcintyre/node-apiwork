@@ -29,7 +29,7 @@ var server = http.createServer(function(req, res) {
             res.end(response+'\n');
             break;
 
-        case 'sentance':
+        case 'sentence':
             var wordsArray = reqArray[1].split('%20');
             var numOfWords = wordsArray.length;
             var numOfSpaces = numOfWords - 1;
